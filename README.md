@@ -1,7 +1,7 @@
 # Windows-OS-ISO-Customizer
 ...
 
-**ScreenShot:**
+## ScreenShot:
 
 ![Screenshot of the application](https://github.com/Earljohn25/Windows-OS-ISO-Customizer/raw/main/ScreenShot/project_1.0.png)
 
@@ -16,7 +16,8 @@
 ![Screenshot of the application](https://github.com/Earljohn25/Windows-OS-ISO-Customizer/raw/main/ScreenShot/5.png)
 
 ![Screenshot of the application](https://github.com/Earljohn25/Windows-OS-ISO-Customizer/raw/main/ScreenShot/6.png)
-Functions:
+
+## Functions:
 
 1. **Test-Administrator:**
    - Checks if the script is running with administrator privileges.
@@ -46,7 +47,7 @@ Functions:
    - Adds an unattended installation file.
    - Creates a new customized ISO using oscdimg.
 
-**High-Level Functionality:**
+##High-Level Functionality:
 
 1. **Check for Administrator Privileges:**
    - The script checks if it is running with administrator privileges. If not, it relaunches itself with elevated privileges.
@@ -74,7 +75,7 @@ Functions:
    - Creates a new customized ISO using the oscdimg tool from the Windows ADK.
    - Updates the progress bar to reflect the progress of the customization process.
 
-**Drawing (Flowchart):**
+## Drawing (Flowchart):
 
 mermaid
 graph TD;
