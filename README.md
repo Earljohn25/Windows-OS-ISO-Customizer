@@ -58,4 +58,5 @@ o	Adds the unattended.xml file to the copied contents.
 o	Creates a new customized ISO using the oscdimg tool from the Windows ADK.
 o	Updates the progress bar to reflect the progress of the customization process.
 
-![Flowchart](C:\Users\Shadow\Downloads\codetoflow.png)
+[View Flowchart](https://codetoflow.com?uid=70281892-8d72-4cee-88e0-fb1217fa3f7d)
+
