@@ -79,18 +79,20 @@
 
 ```mermaid
 graph TD
-    A[Start Script] --> B[Check for Admin Privileges]
-    B -->|If Not Admin, Relaunch as Admin| B
-    B --> C[Create Form and Initialize Controls]
-    C --> D[User Interacts with Form]
-    D --> E[User Clicks "Install" Menu Item]
-    E --> F[Check and Install Chocolatey and Windows ADK]
-    F --> G[User Clicks "Customize ISO"]
-    G --> H[Mount Windows ISO]
-    H --> I[Copy ISO Contents to Temp Directory]
-    I --> J[Add unattended.xml to Temp Directory]
-    J --> K[Create New Customized ISO with oscdimg]
-    K --> L[Update Progress Bar]
-    L --> M[Display Success or Error Message]
-    M --> N[End Script]
+   graph TD;
+    A(Start Script) --> B{Check for Admin Privileges}
+    B --> |Not Admin| C(Relaunch as Admin)
+    B --> |Admin| D(Create Form and Initialize Controls)
+    C --> D
+    D --> E(User Interacts with Form)
+    E --> F{User Clicks 'Install' Menu Item}
+    F --> G(Check and Install Chocolatey and Windows ADK)
+    G --> H{User Clicks 'Customize ISO'}
+    H --> I(Mount Windows ISO)
+    I --> J(Copy ISO Contents to Temp Directory)
+    J --> K(Add unattended.xml to Temp Directory)
+    K --> L(Create New Customized ISO with oscdimg)
+    L --> M(Update Progress Bar)
+    M --> N(Display Success or Error Message)
+    N --> O(End Script)
 
