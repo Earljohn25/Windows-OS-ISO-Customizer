@@ -76,8 +76,9 @@
    - Updates the progress bar to reflect the progress of the customization process.
 
 ## Drawing (Flowchart):
+'''
 mermaid
-graph TD;
+flowchart TD;
     A(Start Script) --> B{Check for Admin Privileges}
     B --> |Not Admin| C(Relaunch as Admin)
     B --> |Admin| D(Create Form and Initialize Controls)
