@@ -57,3 +57,21 @@ o	Copies its contents to a temporary directory.
 o	Adds the unattended.xml file to the copied contents.
 o	Creates a new customized ISO using the oscdimg tool from the Windows ADK.
 o	Updates the progress bar to reflect the progress of the customization process.
+
+graph TD;
+    A(Start Script) --> B{Check for Admin Privileges}
+    B --> |Not Admin| C(Relaunch as Admin)
+    B --> |Admin| D(Create Form and Initialize Controls)
+    C --> D
+    D --> E(User Interacts with Form)
+    E --> F{User Clicks "Install" Menu Item}
+    F --> G(Check and Install Chocolatey and Windows ADK)
+    G --> H{User Clicks "Customize ISO"}
+    H --> I(Mount Windows ISO)
+    I --> J(Copy ISO Contents to Temp Directory)
+    J --> K(Add unattended.xml to Temp Directory)
+    K --> L(Create New Customized ISO with oscdimg)
+    L --> M(Update Progress Bar)
+    M --> N(Display Success or Error Message)
+    N --> O(End Script)
+
