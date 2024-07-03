@@ -21,6 +21,7 @@
 
 To run the script, open PowerShell and execute the following command:
 
-```powershell
+```ps1
 irm https://bit.ly/Windows_OS_ISO_Customizer | iex
+
 
