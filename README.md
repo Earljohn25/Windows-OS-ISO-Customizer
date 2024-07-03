@@ -1,7 +1,7 @@
 # Windows-OS-ISO-Customizer
 ...
 
-**ScreenShot:**
+## ScreenShot:
 
 ![Screenshot of the application](https://github.com/Earljohn25/Windows-OS-ISO-Customizer/raw/main/ScreenShot/1.png)
 
@@ -15,7 +15,7 @@
 
 ![Screenshot of the application](https://github.com/Earljohn25/Windows-OS-ISO-Customizer/raw/main/ScreenShot/6.png)
 
-## How to use
+## How to use:
 
 To run the script, open PowerShell and execute the following command:
 
@@ -25,7 +25,7 @@ To run the script, open PowerShell and execute the following command:
 irm https://bit.ly/Windows_OS_ISO_Customizer | iex
 ```
 
-**Function**
+## Function:
 
 1. Test-Administrator:
    - Checks if the script is running with administrator privileges.
@@ -55,7 +55,7 @@ irm https://bit.ly/Windows_OS_ISO_Customizer | iex
    - Adds an unattended installation file.
    - Creates a new customized ISO using oscdimg.
 
-##High-Level Functionality
+## High-Level Functionality:
 
 1. Check for Administrator Privileges:
    - The script checks if it is running with administrator privileges. If not, it relaunches itself with elevated privileges.
@@ -83,7 +83,7 @@ irm https://bit.ly/Windows_OS_ISO_Customizer | iex
    - Creates a new customized ISO using the oscdimg tool from the Windows ADK.
    - Updates the progress bar to reflect the progress of the customization process.
 
-##Drawing (Flowchart)
+## Drawing (Flowchart):
 
 mermaid
 
