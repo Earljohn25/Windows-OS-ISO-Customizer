@@ -3,7 +3,8 @@
 
 **ScreenShot:**
 
-![Screenshot of the application][(https://github.com/Earljohn25/Windows-OS-ISO-Customizer/blob/main/ScreenShot/1.png)
+![Screenshot of the application](https://github.com/Earljohn25/Windows-OS-ISO-Customizer/raw/main/ScreenShot/1.png)
+
 Functions:
 
 1. **Test-Administrator:**
