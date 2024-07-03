@@ -65,9 +65,9 @@ graph TD;
     B --> |Admin| D(Create Form and Initialize Controls)
     C --> D
     D --> E(User Interacts with Form)
-    E --> F{User Clicks "Install" Menu Item}
+    E --> F{User Clicks 'Install' Menu Item}
     F --> G(Check and Install Chocolatey and Windows ADK)
-    G --> H{User Clicks "Customize ISO"}
+    G --> H{User Clicks 'Customize ISO'}
     H --> I(Mount Windows ISO)
     I --> J(Copy ISO Contents to Temp Directory)
     J --> K(Add unattended.xml to Temp Directory)
@@ -75,5 +75,6 @@ graph TD;
     L --> M(Update Progress Bar)
     M --> N(Display Success or Error Message)
     N --> O(End Script)
+
 
 
