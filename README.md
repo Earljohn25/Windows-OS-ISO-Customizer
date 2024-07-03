@@ -86,7 +86,6 @@ irm https://bit.ly/Windows_OS_ISO_Customizer | iex
 ## Drawing (Flowchart):
 
 mermaid
-
 graph TD;
     A(Start Script) --> B{Check for Admin Privileges}
     B --> |Not Admin| C(Relaunch as Admin)
