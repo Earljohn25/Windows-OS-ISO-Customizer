@@ -90,9 +90,9 @@ graph TD
     B -->|If Not Admin, Relaunch as Admin| B
     B --> C[Create Form and Initialize Controls]
     C --> D[User Interacts with Form]
-    D --> E[User Clicks "Install" Menu Item]
+    D --> E[User Clicks 'Install' Menu Item]
     E --> F[Check and Install Chocolatey and Windows ADK]
-    F --> G[User Clicks "Customize ISO"]
+    F --> G[User Clicks 'Customize ISO']
     G --> H[Mount Windows ISO]
     H --> I[Copy ISO Contents to Temp Directory]
     I --> J[Add unattended.xml to Temp Directory]
