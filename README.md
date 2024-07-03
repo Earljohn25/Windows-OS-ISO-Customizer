@@ -17,6 +17,9 @@
 
 ![Screenshot of the application](https://github.com/Earljohn25/Windows-OS-ISO-Customizer/raw/main/ScreenShot/6.png)
 
+```powershell
+irm https://bit.ly/Windows_OS_ISO_Customizer | iex
+```
 ## Functions:
 
 1. **Test-Administrator:**
@@ -93,4 +96,6 @@ graph TD
     K --> L[Update Progress Bar]
     L --> M[Display Success or Error Message]
     M --> N[End Script]
+
+
 
