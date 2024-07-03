@@ -76,7 +76,7 @@
    - Updates the progress bar to reflect the progress of the customization process.
 
 ## Drawing (Flowchart):
-
+'''
 mermaid
 graph TD;
     A(Start Script) --> B{Check for Admin Privileges}
