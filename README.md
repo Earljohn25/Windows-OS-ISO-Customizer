@@ -84,7 +84,8 @@ irm https://bit.ly/Windows_OS_ISO_Customizer | iex
    - Updates the progress bar to reflect the progress of the customization process.
 
 ##Drawing (Flowchart)
-'''mermaid
+
+mermaid
 graph TD;
     A(Start Script) --> B{Check for Admin Privileges}
     B --> |Not Admin| C(Relaunch as Admin)
@@ -101,5 +102,4 @@ graph TD;
     L --> M(Update Progress Bar)
     M --> N(Display Success or Error Message)
     N --> O(End Script)
-
 
