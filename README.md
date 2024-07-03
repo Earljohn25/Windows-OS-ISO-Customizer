@@ -1,4 +1,10 @@
 # Windows-OS-ISO-Customizer
+<h1 align="center">
+<p align="center">
+  <img src="https://github.com/Earljohn25/Windows-OS-ISO-Customizer/raw/main/ScreenShot/Logo.png" alt="Screenshot of the application" width="300">
+</p>
+  <br>
+</h1>
 ...
 
 ## ScreenShot:
