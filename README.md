@@ -1,5 +1,9 @@
 # Windows-OS-ISO-Customizer
+...
 
+**ScreenShot:**
+
+![Screenshot of the application][(https://github.com/your-username/your-repository/blob/main/screenshot.png)](https://github.com/Earljohn25/Windows-OS-ISO-Customizer/blob/main/ScreenShot/1.png)
 Functions:
 
 1. **Test-Administrator:**
