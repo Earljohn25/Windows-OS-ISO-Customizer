@@ -25,7 +25,7 @@ To run the script, open PowerShell and execute the following command:
 irm https://bit.ly/Windows_OS_ISO_Customizer | iex
 ```
 
-##Function
+**Function**
 
 1. Test-Administrator:
    - Checks if the script is running with administrator privileges.
