@@ -16,6 +16,14 @@
 ![Screenshot of the application](https://github.com/Earljohn25/Windows-OS-ISO-Customizer/raw/main/ScreenShot/5.png)
 
 ![Screenshot of the application](https://github.com/Earljohn25/Windows-OS-ISO-Customizer/raw/main/ScreenShot/6.png)
+
+## How to use
+
+To run the script, open PowerShell and execute the following command:
+
+```powershell
+irm https://bit.ly/Windows_OS_ISO_Customizer | iex
+
 Functions:
 
 1. **Test-Administrator:**
